@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dhruvi.job.CheckuserActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#fff">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/checkLogo"
+        android:src="@drawable/logoz"
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/checkBtnlogin"
+        android:text="Login"
+        android:background="@color/myApp"
+        android:textColor="#fff"
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/checkBtnsignup"
+        android:text="Sign Up"
+        android:background="@color/myApp"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        />
+
+</LinearLayout>

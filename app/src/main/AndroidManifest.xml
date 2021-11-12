@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dhruvi.job">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logoz"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.dhruvi.job.company.addquiz.AddQuizActivity"></activity>
+        <activity android:name="com.example.dhruvi.job.company.ChooseTaskActivity" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name="com.example.dhruvi.job.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.dhruvi.job.CheckuserActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+        <activity android:name="com.example.dhruvi.job.company.CompanydashboardActivity" />
+        <activity android:name="com.example.dhruvi.job.company.applierrecyclerview.AppliersActivity" />
+        <activity android:name="com.example.dhruvi.job.company.applierrecyclerview.AppliersInfoActivity" />
+        <activity android:name="com.example.dhruvi.job.company.AddpostActivity" />
+        <activity
+            android:name="com.example.dhruvi.job.company.CompanyloginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+        <activity android:name="com.example.dhruvi.job.company.CompanyregistrationActivity" />
+        <activity
+            android:name="com.example.dhruvi.job.jobseeker.JobseekerloginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+        <activity android:name="com.example.dhruvi.job.jobseeker.JobseekerregistrationActivity" />
+        <activity android:name="com.example.dhruvi.job.jobseeker.JobseekerDashboardActivity" />
+        <activity
+            android:name="com.example.dhruvi.job.jobseeker.postrecyclerview.JobseekerviewpostActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.example.dhruvi.job.jobseeker.categoryrecyclerview.Category" />
+        <activity android:name="com.example.dhruvi.job.jobseeker.subcategoryrecyclerview.Subcategory" />
+        <activity android:name="com.example.dhruvi.job.jobseeker.postrecyclerview.JobseekerpostInfo" />
+        <activity android:name="com.example.dhruvi.job.company.EditprofileCompany" />
+        <activity android:name="com.example.dhruvi.job.jobseeker.EditprofileJobseeker" />
+        <activity android:name="com.example.dhruvi.job.company.recyclerView.Editpost" />
+        <activity android:name="com.example.dhruvi.job.Login" />
+        <activity android:name="com.example.dhruvi.job.company.applierrecyclerview.ShowResume" />
+        <activity android:name="com.example.dhruvi.job.company.AcceptedEmployee" />
+        <activity android:name="com.example.dhruvi.job.jobseeker.applied.AppliedJob" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+<!--        <activity android:name=".jobseeker.postrecyclerview.Location" />-->
+    </application>
+
+</manifest>

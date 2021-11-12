@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dhruvi.job.company.applierrecyclerview.AppliersInfoActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#fff">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/applierimg"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appliername"
+        android:textSize="25sp"
+        android:text="Name : "
+        android:layout_margin="10dp"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/applieremail"
+        android:textSize="25sp"
+        android:text="Email : "
+        android:layout_margin="10dp"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/applierno"
+        android:textSize="25sp"
+        android:text="Mobile no. :"
+        android:layout_margin="10dp"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/applierskill"
+        android:textSize="25sp"
+        android:text="Skill : "
+        android:layout_margin="10dp"
+        android:textColor="#000"/>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="left">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Show Resume : "
+        android:id="@+id/txtresume"
+        android:layout_margin="10dp"
+        android:textColor="#000"/>
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:id="@+id/applierresume"
+        android:src="@drawable/pdf"
+        android:layout_toRightOf="@+id/txtresume"
+        android:layout_marginLeft="30dp"
+        android:layout_margin="10dp"/>
+</RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:id="@+id/accept"
+            android:layout_margin="30dp"
+            android:background="@drawable/roundbtn"
+            android:text="accept"
+            android:textColor="#fff"
+            />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/decline"
+                android:layout_margin="30dp"
+                android:background="@drawable/roundbtn"
+                android:text="decline"
+                android:textColor="#fff"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

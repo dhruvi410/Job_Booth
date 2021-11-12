@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.dhruvi.job.company.CompanyregistrationActivity"
+    android:background="#fff">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/companyregistrationlogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/defaultimg" />
+<android.support.design.widget.TextInputLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="Enter your name">
+    <EditText
+        android:id="@+id/companyregistrationname"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/roundedittext"
+        android:paddingLeft="10dp"
+        android:nextFocusDown="@id/companyregistrationemail"
+        android:drawableLeft="@drawable/email"
+        android:drawableStart="@drawable/email"/>
+</android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter your email">
+    <EditText
+        android:id="@+id/companyregistrationemail"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/roundedittext"
+        android:paddingLeft="10dp"
+        android:nextFocusDown="@id/companyregistrationpassword"
+        android:drawableLeft="@drawable/mainemail"
+        android:drawableStart="@drawable/mainemail"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
+        android:hint="Enter password">
+    <EditText
+        android:id="@+id/companyregistrationpassword"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/roundedittext"
+        android:paddingLeft="10dp"
+        android:nextFocusDown="@id/companyregistrationbtn"
+        android:drawableLeft="@drawable/password"
+        android:drawableStart="@drawable/password"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="What is your pet name ?">
+        <EditText
+            android:id="@+id/companyregistrationans"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/roundedittext"
+            android:paddingLeft="10dp"
+            android:nextFocusDown="@id/companyregistrationbtn"
+            />
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:id="@+id/companyregistrationbtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/roundbtn"
+        android:text="Sign Up"
+        android:textColor="#fff" />
+</LinearLayout>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.dhruvi.job.jobseeker.JobseekerregistrationActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#fff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="#fff">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/jobseekerregistration_logo"
+        android:src="@drawable/defaultimg"
+        android:contentDescription="@string/todo" />
+       <android.support.design.widget.TextInputLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="@string/enter_your_email">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/jobseekerregistration_email"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/roundedittext"
+            android:paddingLeft="10dp"
+            android:layout_margin="10dp"
+            android:drawableStart="@drawable/mainemail"
+            android:drawableLeft="@drawable/mainemail" />
+       </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter password"
+            app:passwordToggleEnabled="true">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/jobseekerregistration_password"
+            android:inputType="textPassword"
+            android:drawableStart="@drawable/password"
+            android:background="@drawable/roundedittext"
+            android:paddingLeft="10dp"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/password" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your name">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/jobseekerregistration_name"
+            android:drawableStart="@drawable/email"
+            android:inputType="text"
+            android:background="@drawable/roundedittext"
+            android:paddingLeft="10dp"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/email" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter mobile no.">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/jobseekerregistration_mobile"
+            android:inputType="text"
+            android:drawableStart="@drawable/mobile"
+            android:background="@drawable/roundedittext"
+            android:paddingLeft="10dp"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/mobile" />
+        </android.support.design.widget.TextInputLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose gender :"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/jobseekerregistration_rdgrp"
+                    >
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/jobseekerregistration_rdmale"
+                        android:text="Male"
+                        android:layout_marginTop="10dp"
+                        />
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/jobseekerregistration_rdfemale"
+                        android:text="Female"
+                        android:layout_marginTop="10dp"
+                        />
+                </RadioGroup>
+            </LinearLayout>
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="left">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date of Birth :"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:layout_margin="10dp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/jobseekerregistration_date"
+                android:text="Choose"
+                android:background="@color/myApp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#fff"
+                android:layout_margin="10dp"/>
+        </LinearLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter no. of years of experince">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/jobseekerregistration_exp"
+            android:drawableStart="@drawable/experince"
+            android:inputType="text"
+            android:background="@drawable/roundedittext"
+            android:paddingLeft="10dp"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/experince" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your city">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/jobseekerregistration_city"
+            android:drawableStart="@drawable/city"
+            android:inputType="text"
+            android:background="@drawable/roundedittext"
+            android:paddingLeft="10dp"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/city" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="What is your pet name ?">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/jobseekerregistration_ans"
+                android:inputType="text"
+                android:background="@drawable/roundedittext"
+                android:paddingLeft="10dp"
+                android:layout_margin="10dp"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/jobseekerregistration_btn"
+            android:text="Register"
+            android:background="@drawable/roundbtn"
+            android:textColor="#fff"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+</ScrollView>

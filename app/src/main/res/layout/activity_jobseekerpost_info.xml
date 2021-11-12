@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dhruvi.job.jobseeker.postrecyclerview.JobseekerpostInfo"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#fff">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/postinfoimg"
+        android:src="@drawable/defaultimg"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/postinfotitle"
+            android:textSize="35dp"
+            android:text=""
+            android:layout_margin="10dp"
+            android:textColor="#000"/>
+
+        <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/postinfoemail"
+         android:textSize="20dp"
+         android:text="Email : "
+         android:layout_margin="10dp"
+         android:textColor="#000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/postinfovacancy"
+            android:textSize="20dp"
+            android:text="Vacancy : "
+            android:layout_margin="10dp"
+            android:textColor="#000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/postinfoskill"
+            android:textSize="20dp"
+            android:text="Requirement : "
+            android:layout_margin="10dp"
+            android:textColor="#000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/postinfoby"
+            android:textSize="20dp"
+            android:text="By : "
+            android:layout_margin="10dp"
+            android:textColor="#000"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chooseresume"
+            android:background="@color/myApp"
+            android:text="Choose pdf"
+            android:textColor="#fff"
+            android:layout_margin="20dp"
+            tools:ignore="OnClick" />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/postinfoapply"
+                android:background="@color/myApp"
+                android:text="Apply"
+                android:textColor="#fff"
+                android:layout_margin="20dp"
+                tools:ignore="OnClick"/>
+</LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5da5b0</color>
+    <color name="colorPrimaryDark">#5da5b0</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="myApp">#5da5b0</color>
+    <color name="myText">#5da5b0</color>
+    <color name="back">#ccf5fc</color>
+    <color name="mydiff">#f29304</color>
+    <color name="g">#939090</color>
+    <color name="b">#e4e2e2</color>
+</resources>

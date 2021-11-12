@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Job Booth</string>
+
+    <string name="job_booth">Job Booth</string>
+    <string name="login_as">Login As</string>
+    <string name="job_seeker">Job Seeker</string>
+    <string name="employee">Employee</string>
+    <string name="todo">TODO</string>
+    <string name="post">Post</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_title">Enter title</string>
+    <string name="no_of_emplyees_wanted">No. of emplyees wanted :</string>
+    <string name="_0">0</string>
+    <string name="enter_your_exceptation_of_expertise">Enter your exceptation of expertise</string>
+    <string name="enter_special_skill_you_wanted">Enter special skill you wanted</string>
+    <string name="enter_any_notes">Enter any notes</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="add_post">Add post</string>
+    <string name="enter_username">  Enter email</string>
+    <string name="enter_password">Enter password</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="change_password">Change password</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

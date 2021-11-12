@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chooseresume"
+        android:text="Choose"
+        android:background="@drawable/roundbtn"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pdfname"
+        android:hint="Enter pdf name"
+        android:background="@drawable/roundedittext"
+        android:padding="10dp"
+        android:layout_margin="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/uploadresume"
+        android:text="Upload"
+        android:background="@drawable/roundbtn"
+        android:layout_margin="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/applydialog"
+        android:text="Upload"
+        android:background="@drawable/roundbtn"
+        android:layout_margin="10dp"/>
+</LinearLayout>

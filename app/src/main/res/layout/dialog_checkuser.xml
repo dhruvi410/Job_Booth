@@ -1,0 +1,39 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialogTitle"
+        android:text="@string/login_as"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/myApp"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/dialogBtnjobseeker"
+        android:text="@string/job_seeker"
+        android:background="@color/myApp"
+        android:textColor="#fff"
+        android:layout_margin="20dp"
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/dialogBtnemployee"
+        android:text="Recruiter"
+        android:background="@color/myApp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#fff"
+        android:layout_margin="20dp"
+        />
+
+</LinearLayout>
